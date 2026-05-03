@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "ETHREE",
+    "slug": "ethree-app",
+    "scheme": "ethree",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/LOGO.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ethree.app",
+      "usesAppleSignIn": true,
+      "splash": {
+        "image": "./assets/LOGO.png",
+        "resizeMode": "contain",
+        "backgroundColor": "#ffffff"
+      },
+      "icon": "./assets/LOGO.png"
+    },
+    "web": {
+      "favicon": "./assets/LOGO.png"
+    },
+    "android": {
+      "package": "com.ethree.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/LOGO.png",
+        "backgroundColor": "#ffffff"
+      },
+      "icon": "./assets/LOGO.png"
+    }
+  }
+}

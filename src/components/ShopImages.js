@@ -1,0 +1,22 @@
+export const ShopImages = {
+    food_jail: require('../../assets/shops/food jail.png'),
+    fruit_me: require('../../assets/shops/fruit mesh up.png'),
+    house_of_pulav: require('../../assets/shops/house of pulaos.png'),
+    us_pizza: require('../../assets/shops/planet pizza.png'),
+    burma_food: require('../../assets/shops/burma.png'),
+    dumont: require('../../assets/shops/dumont.png'),
+    aa_ruchulu: require('../../assets/shops/aaruchulu.png'),
+    pub_g: require('../../assets/shops/pubgs.png'),
+    red_chillis: require('../../assets/shops/red chillis.png'),
+    alpha: require('../../assets/shops/alpha.png'),
+    wow_momo: require('../../assets/shops/wow momo.png'),
+    darbar: require('../../assets/shops/darbar.png'),
+    punjabi_tadka: require('../../assets/shops/punjabi tadka.png'),
+    varsha_cool_drinks: require('../../assets/shops/coca cola.png'), // Mapped to coca cola.png as there is no varsha drink specifically
+    red_bucket: require('../../assets/shops/the red bucket biriyani.png'),
+    bawarchi: require('../../assets/shops/bawarchi.png'),
+    grills_n_rolls: require('../../assets/shops/grills & rolls.png'),
+    kfc: require('../../assets/shops/kfc.png'),
+    falooda: require('../../assets/shops/punjabi falooda kulfi.png'),
+    waffle_cafe: require('../../assets/shops/Waffle cafe.jpeg'),
+};

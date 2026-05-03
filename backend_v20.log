@@ -1,0 +1,48 @@
+Loading dotenv...
+Loading app...
+morgan loaded
+express loaded
+cors loaded
+helmet loaded
+path loaded
+Loading auth routes...
+Firebase environment variables missing. Firebase features will not work.
+jwt loaded
+mongoose loaded
+jwt loaded in User
+User model loaded
+Loading ride routes...
+Loading restaurants routes...
+Loading events routes...
+Loading booking routes...
+Loading users routes...
+Loading meta routes...
+Loading connectDB...
+Initiating DB connection...
+Attempting to listen on port 5001
+node:events:502
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::5001
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at Function.listen (/Users/sharmilakonapala/Desktop/out_projects/e3apk/backend/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/Users/sharmilakonapala/Desktop/out_projects/e3apk/backend/src/server.js:18:5)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:164:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1944:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 5001
+}
+
+Node.js v20.20.0
