@@ -43,12 +43,12 @@ export const DINING_DATA = [
     },
     {
         id: '8',
-        name: "PubG's",
+        name: 'Pub Special',
         description: 'A vibrant sports bar and restaurant with great music and food.',
         about: 'The perfect spot to hang out with friends and enjoy live sports.',
-        image: ShopImages.pub_g,
+        image: ShopImages.pub_special,
         menu: [
-            { id: 'm11', name: 'Chicken Wings', price: '₹280', description: 'Spicy buffalo wings with blue cheese dip.', image: ShopImages.pub_g, isVeg: false },
+            { id: 'm11', name: 'Chicken Wings', price: '₹280', description: 'Spicy buffalo wings with blue cheese dip.', image: ShopImages.pub_special, isVeg: false },
         ]
     },
     {

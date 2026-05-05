@@ -7,6 +7,7 @@ export const ShopImages = {
     dumont: require('../../assets/shops/dumont.png'),
     aa_ruchulu: require('../../assets/shops/aaruchulu.png'),
     pub_g: require('../../assets/shops/pubgs.png'),
+    pub_special: require('../../assets/shops/pubgs.png'),
     red_chillis: require('../../assets/shops/red chillis.png'),
     alpha: require('../../assets/shops/alpha.png'),
     wow_momo: require('../../assets/shops/wow momo.png'),

@@ -35,8 +35,19 @@ const DiningScreen = () => {
         try {
             const data = await api.get('/api/e3/dine');
             const formatted = (data.dineItems || data).map(item => {
-                const stallName = item.stall || item.name;
-                const localMenu = restaurantMenuAssets[stallName] || [];
+                const stallKey = (item.stall || "").trim();
+                const nameKey = (item.name || "").trim();
+                
+                // Aggressive search for local menu assets
+                const localMenu = restaurantMenuAssets[stallKey] || 
+                                 restaurantMenuAssets[nameKey] ||
+                                 restaurantMenuAssets[stallKey.toLowerCase()] ||
+                                 restaurantMenuAssets[nameKey.toLowerCase()] ||
+                                 restaurantMenuAssets[Object.keys(restaurantMenuAssets).find(k => 
+                                     k.toLowerCase() === stallKey.toLowerCase() || 
+                                     k.toLowerCase() === nameKey.toLowerCase()
+                                 )] ||
+                                 [];
                 
                 return {
                     ...item,
